@@ -1,0 +1,114 @@
+#Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>BhagyaLakshmi Kuppala</h1>
+      <p>Data Science Student | Frontend Enthusiast</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate student learning data science and frontend development. I love solving problems and building cool web apps.</p>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Smart Resume Analyzer</h3>
+      <p>A tool that analyzes resumes and matches them with suitable job roles using NLP.</p>
+    </div>
+    <div class="project-card">
+      <h3>Social Media Manager</h3>
+      <p>A web app to schedule and manage posts across social platforms.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: bhagyalakshmi@example.com</p>
+    <p>LinkedIn: linkedin.com/in/bhagyalakshmi</p>
+  </section>
+
+  <footer>
+    <p>© 2025 BhagyaLakshmi | All rights reserved</p>
+  </footer>
+</body>
+</html>
+#Style.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #4b6cb7;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+nav {
+  background: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 2rem auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #4b6cb7;
+}
+
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #4b6cb7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #4b6cb7;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
